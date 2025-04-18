@@ -1,0 +1,302 @@
+/* navigation */
+*{
+    font-family: "Open Sans", sans-serif;
+
+}
+.nav{
+    position: sticky !important;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 10px 100px ;
+    height: 50px;
+    align-items: last baseline;
+    background-color: white;
+top: 0;
+    transition: 0.3s;
+    z-index: 1001;
+
+
+}
+.borderNav{
+    position: sticky !important;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 10px 100px ;
+    height: 30px;
+    align-items: last baseline;
+    background-color: white;
+top: 0;
+    transition: 0.3s;
+    z-index: 1001;
+    box-shadow: 0 0 3px rgb(215, 215, 215);
+
+}
+.menu a{
+    padding: 0 10px;
+    color: #3e3e3e;
+    text-decoration: none;
+}   
+.logo h1{
+    font-family: "Baskervville", serif;
+    font-style: italic;
+    font-size: 25px;
+}
+.menu a:hover{
+    color: black;
+
+
+}
+
+    
+
+.socials a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: #3e3e3e;
+}
+.socials a:hover{
+    color: black;
+}
+
+
+/* hero*/
+
+.hero{
+    position: sticky;
+    display: flex   ;
+    height: 80dvh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main img{
+    height: 40dvh;
+    margin-left: -600px;
+    margin-top: 160px;
+    z-index: 1000;
+
+}
+.shadow{
+    height: 20px;
+    width: 90px;
+    background-color: black;
+    position: absolute;
+    top: 490px;
+    left: 280px;
+    border-radius: 100%;
+    z-index: -1;
+}
+.main h3{
+    position: absolute;
+    top: 50dvh;
+    left: 40dvw;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+/* works */
+.works-section a{
+    text-decoration: none;
+}
+.works-section{
+    margin-left: 200px;
+    transition: 0.3s;
+}
+.works-section div{
+    margin: 10px;
+}
+
+
+.works-card{
+    display: flex;
+    align-items: center;
+    background-color: rgb(237, 237, 237);
+    height: 200px;
+    width: 1000px;
+    border-radius: 20px;
+    padding: 20px;
+  
+    
+
+}
+
+.works-card-text{
+    color: #3e3e3e;
+   
+
+}
+.works-card-text a{
+    text-decoration: none;
+
+}
+.works-card-text:hover{
+    color: black;
+}
+
+.works-card img{
+    position: relative;
+    height: 200px;
+    border-radius: 20px;
+    opacity: 0.8;
+
+}
+.works-card img:hover{
+    opacity: 1;
+}
+/* project page*/
+
+.project-page{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+.project-page img{
+    height: 400px;
+   box-shadow: 0 0 3px rgb(166, 166, 166);    
+}
+.project-page h1{
+    padding: 20px 0;
+}
+
+
+
+
+/* about us section*/
+.about-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.about-image img{
+    width: 1000px;
+    border-radius: 20px;
+    opacity: 0.6;
+
+
+}
+.about-image h1{
+    font-size: 50px;
+    position: absolute;
+}
+.text-part-about-first {
+    margin-top: 50px;
+    width: 100dvw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    
+}
+.text-part-about-first p{
+    width: 900px;
+    text-align: center;
+    color: #3e3e3e;
+}
+.text-part-about-second{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin-top: 20px;
+    margin-left: 200px;
+    color: #2e2e2e;
+}
+.text-part-about-second h1{
+    padding: 10px 0;
+    font-size: 30px;
+}
+.text-part-about-second p{
+    margin: 20px 0;
+}
+
+
+
+/*contact */
+
+.contact{
+    width: 90dvw;
+    
+}
+
+.contact-heading{
+    width: 30dvw;
+    margin-left: 300px;
+    margin-top: 200px;
+
+}
+.contact-heading h1{
+    font-size: 25px;
+    padding: 10px 0;
+}
+.contact-details p, li{
+    padding: 10px 0;
+
+
+}
+
+.message-form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.message-form input, textarea{
+    border: none;
+    border-bottom: 1px solid rgb(146, 146, 146);
+    outline: none;
+    margin: 10px 0;
+    padding: 10px 10px;
+
+}
+.message-form textarea{
+    background-color: rgb(223, 223, 223);
+}
+.message-form button{
+    width: 90px;
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 10px 10px;
+    margin: 10px 0;
+}
+
+/*footer*/
+.footer{
+    padding: 40px;
+    display: flex;
+    background-color: #dcdcdc;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-logo{
+    width: 20%;
+}
+.footer-logo h1{
+    font-size: 40px;
+    font-family: "Baskervville", serif;
+    font-style: italic;
+}
+
+.footer-menu{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-menu a{
+    padding: 5px 0;
+    color: #3e3e3e;
+    text-decoration: none;
+}
+.footer-menu a:hover{
+    color: black;
+}
+.footer-menu .socials{
+    margin-top: 10px;
+}
