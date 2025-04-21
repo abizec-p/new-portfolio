@@ -14,8 +14,8 @@ export default function Works(){
                     </div>
                     <div className="works-card-text">
                     <h1>{projects.title}</h1>
-                    <p>{projects.description}</p>
-                    <p> tags</p>
+                    <p>{projects.shortDesc}</p>
+                    <p>Skills used: {projects.skillsUsed.join(" ")}</p>
                     </div>
 
                    </div>  

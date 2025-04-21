@@ -1,6 +1,8 @@
 import React from 'react'
 import projects from '../data/projectdetail'
 import { Link, useParams } from 'react-router-dom'
+import { IoMdArrowRoundBack } from "react-icons/io";
+
 
 const ProjectPage = () => {
   const {id} = useParams();
@@ -11,6 +13,8 @@ const ProjectPage = () => {
   }
   return (
     <section >
+      <div className='back-arrow'><Link to="/"><IoMdArrowRoundBack /></Link>
+      </div>
          <div key={id} className='project-page'>
           <img src={project.img} alt="" />
        <h1>   {project.title}</h1>

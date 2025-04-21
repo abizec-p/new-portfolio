@@ -1,10 +1,17 @@
 import { Link } from 'react-router-dom';
 import { FaGithub,FaLinkedin,FaInstagram,FaDribbbleSquare   } from "react-icons/fa";
+import { RxHamburgerMenu } from "react-icons/rx";
+
 import "./style.css"
 import { useEffect, useState } from 'react';
 export default function Nav(){
 
     const [isScrolled, setIsScrolled] = useState(false);
+    const [isClicked, setIsClicked] = useState(false);
+
+    function handleClick(){
+        setIsClicked(!isClicked);
+    }
 
     function Scrolled(){
         setIsScrolled(window.scrollY > 0);
@@ -18,7 +25,7 @@ export default function Nav(){
 
     return(
         <section  className={isScrolled?"borderNav":"nav"}>
-            <div className="menu">
+            <div className={isClicked?"mobile-menu":"menu"}>
                 <Link to="/" >projects</Link>
                 <Link to="/about">about me</Link>
                 <Link to="contact">contact</Link>
@@ -27,13 +34,15 @@ export default function Nav(){
                 <h1>Abizec</h1>
 
             </div>
-            <div className='socials'>
+            <div className={isClicked?"mobile-socials":'socials'}>
                 <a href=""><FaGithub /> </a>
                 <a href=""><FaLinkedin  /> </a>
                 <a href=""><FaInstagram  /> </a>
                 <a href=""><FaDribbbleSquare   /> </a>
 
                 
+            </div>
+            <div onClick={handleClick} className='hamburger-menu'><RxHamburgerMenu />
             </div>
 
         </section>
