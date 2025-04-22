@@ -19,7 +19,7 @@ top: 0;
 
 }
 
-@media (min-width > 768px) {
+@media (min-width: 768px) {
     
 
 .borderNav{
@@ -254,8 +254,11 @@ top: 0;
 .contact-heading{
     width: 30dvw;
     margin-left: 300px;
-    margin-top: 200px;
+    margin-top: 100px;
 
+}
+.contact-heading img{
+    height: 400px;
 }
 .contact-heading h1{
     font-size: 25px;
@@ -290,6 +293,7 @@ top: 0;
     background-color: black;
     padding: 10px 10px;
     margin: 10px 0;
+    margin-bottom: 50px;
 }
 
 /*footer*/
@@ -601,7 +605,9 @@ top: 0;
     /*contact */
     
     .contact{
+        margin-top: 50px;
         width: 90dvw;
+        margin-left: 10px;
         
     }
     
@@ -610,6 +616,9 @@ top: 0;
         margin-left: 10px;
         margin-top: 20px;
     
+    }
+    .contact-heading img{
+        width: 90dvw;
     }
     .contact-heading h1{
         font-size: 25px;

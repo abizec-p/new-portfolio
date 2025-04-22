@@ -1,8 +1,10 @@
+import contactImg from "../assets/img/contact-us-img.png"
 export default function Contact(){
 
     return(
         <section className="contact">
             <div className="contact-heading">
+                <img src={contactImg} alt="" />
             <h1>So you like my works?</h1>
             <p>"Feel free to reach out for any inquiries or collaborations—i'd love to hear from you! Whether you have a project in mind or just want to connect, don't hesitate to get in touch."</p> <br />
             <div className="contact-details">
