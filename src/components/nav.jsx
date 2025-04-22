@@ -11,6 +11,11 @@ export default function Nav(){
 
     function handleClick(){
         setIsClicked(!isClicked);
+
+        
+    }
+    function handleLinkClick(){
+        isClicked(false);
     }
 
     function Scrolled(){
@@ -26,19 +31,19 @@ export default function Nav(){
     return(
         <section  className={isScrolled?"borderNav":"nav"}>
             <div className={isClicked?"mobile-menu":"menu"}>
-                <Link to="/" >projects</Link>
-                <Link to="/about">about me</Link>
-                <Link to="contact">contact</Link>
+                <Link onClick={handleLinkClick}  to="/" >projects</Link>
+                <Link onClick={handleLinkClick} to="/about">about me</Link>
+                <Link onClick={handleLinkClick} to="contact">contact</Link>
             </div>
             <div className='logo'>
                 <h1>Abizec</h1>
 
             </div>
             <div className={isClicked?"mobile-socials":'socials'}>
-                <a href=""><FaGithub /> </a>
-                <a href=""><FaLinkedin  /> </a>
-                <a href=""><FaInstagram  /> </a>
-                <a href=""><FaDribbbleSquare   /> </a>
+                <a onClick={handleLinkClick} target='_blank'  href="https://github.com/abizec-p"><FaGithub /> </a>
+                <a onClick={handleLinkClick} target='_blank' href="https://www.linkedin.com/in/abishek-pariyar-004b9b1a0/"><FaLinkedin  /> </a>
+                <a onClick={handleLinkClick} target='_blank' href="https://www.instagram.com/pariyar_abizake/"><FaInstagram  /> </a>
+                <a onClick={handleLinkClick} target='_blank' href="https://dribbble.com/Abizec"><FaDribbbleSquare   /> </a>
 
                 
             </div>

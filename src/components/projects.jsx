@@ -18,7 +18,7 @@ const ProjectPage = () => {
          <div key={id} className='project-page'>
           <img src={project.img} alt="" />
        <h1>   {project.title}</h1>
-       <a href="#">Full site here{project.link} </a>
+       <a href={project.link}>Full site here </a>
 <br />
        <p>{project.description}</p>
 

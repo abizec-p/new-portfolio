@@ -9,6 +9,7 @@ export default function Footer(){
             <p>I am a front end web developer with expersite in reactjs. Feel free to reach me out via any of my contact method. <br />
                 <br />Thank you and have a nice day.
             </p>
+            <br />  
         </div>
         <div className="footer-contact-details">
             <h1>Contact details</h1>
