@@ -18,6 +18,10 @@ top: 0;
 
 
 }
+
+@media (min-width > 768px) {
+    
+
 .borderNav{
     position: sticky !important;
     display: flex;
@@ -32,6 +36,7 @@ top: 0;
     z-index: 1001;
     box-shadow: 0 0 3px rgb(215, 215, 215);
 
+}
 }
 .menu a{
     padding: 0 10px;
@@ -338,21 +343,7 @@ top: 0;
     
     
     }
-    .borderNav{
-        position: sticky !important;
-        display: flex;
-        justify-content: center;
-        justify-content: space-between;
-        padding: 10px 100px ;
-        height: 30px;
-        align-items: last baseline;
-        background-color: white;
-         top: 0;
-        transition: 0.3s;
-        z-index: 1001;
-        box-shadow: 0 0 3px rgb(215, 215, 215);
-    
-    }
+  
     .mobile-menu{
         margin-top: 50px;
 
