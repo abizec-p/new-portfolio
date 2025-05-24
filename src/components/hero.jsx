@@ -5,7 +5,7 @@ export default function Hero(){
         <section className="hero">
             <div className="main">
                 <img src={plant} alt="plant picture" />
-                <h3>Welcome to my portfolio, i'm just too lazy to put anything in my homepage.
+                <h3>Hi,I am a web developer, i'm just too lazy to put anything in my homepage.
                     <br /> Why don't you start scrolling? </h3>
 
             </div>
