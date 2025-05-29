@@ -7,7 +7,7 @@ export default function Works(){
             {
                 
                 projects.map((projects) => (
-                    <Link to={`/project/${projects.id}`} key="project.id">
+                    <Link target="_blank" to={`${projects.website}`} key="project.id">
                    <div className="works-card" key={projects.id}>
                     <div className="works-img-section">
                     <img src={projects.img} alt="" />
@@ -15,9 +15,13 @@ export default function Works(){
                     <div className="works-card-text">
                     <h1>{projects.title}</h1>
                     <p>{projects.shortDesc}</p>
-                    <p>Skills used: {projects.skillsUsed.join(" ")}</p>
+                        <div className="tags">
+                    
+                    {projects.tags.map((tags, index) =>(
+                       <span key={index}>{tags}</span>
+                    ))}
                     </div>
-
+</div>
                    </div>  
                    </Link> 
                 
