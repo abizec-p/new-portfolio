@@ -32,7 +32,7 @@ const projects = [
         title:"PCA Website",
         shortDesc:"A responsive, user-friendly site showcasing HVAC services, founder insights, and easy contact options — built to highlight trust, expertise, and year-round comfort.",
         tags : ["Html","Css","Reactjs"],
-        website:"www.2broshvac.ca",
+        website:"https://2broshvac.ca/",
       
     },
  
