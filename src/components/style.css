@@ -3,6 +3,9 @@
     font-family: "Open Sans", sans-serif;
 
 }
+html{
+    font-size: 22px;
+}
 .nav{
     position: sticky !important;
     display: flex;
@@ -28,7 +31,7 @@ top: 0;
     justify-content: center;
     justify-content: space-between;
     padding: 10px 100px ;
-    height: 30px;
+    height: 70px;
     align-items: last baseline;
     background-color: white;
 top: 0;
@@ -42,11 +45,12 @@ top: 0;
     padding: 0 10px;
     color: #3e3e3e;
     text-decoration: none;
+    font-size: 22px;
 }   
 .logo h1{
     font-family: "Baskervville", serif;
     font-style: italic;
-    font-size: 25px;
+    font-size: 40px;
 }
 .menu a:hover{
     color: black;
@@ -60,6 +64,7 @@ top: 0;
     padding: 0 10px;
     text-decoration: none;
     color: #3e3e3e;
+    font-size: 22px;
 }
 .socials a:hover{
     color: black;
@@ -141,6 +146,7 @@ top: 0;
 .works-card-text{
     color: #3e3e3e;
     padding: 0 10px;
+    font-size: 22px;
    
 
 }
@@ -237,8 +243,8 @@ top: 0;
 .text-part-about-second{
     display: flex;
     flex-direction: column;
-    width: 900px;
-    margin-top: 20px;
+    width: 1200px;
+    margin-top: 100px;
     margin-left: 200px;
     color: #2e2e2e;
 }
@@ -485,12 +491,11 @@ top: 0;
     
     .works-card{
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+      
         align-items: center;
-        
         height: 100% ;
-        width: 80dvw;
-        border-radius: 10px;
+   
         padding: 0 10px;
         margin-bottom: 20px;
       
@@ -503,15 +508,15 @@ top: 0;
     
     }
     .works-card-text h1{
-        margin-left: -150px;
+        margin-left: 10px;
     }
     .works-card-text a{
         text-decoration: none;
     
     }
     .works-card-text p{
-        width: 400px;
-        margin-left: -150px;
+        width: 300px;
+        margin: 0 10px;
     }
     .works-card-text:hover{
         color: black;   

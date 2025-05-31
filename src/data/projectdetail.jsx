@@ -29,7 +29,7 @@ const projects = [
     {
         id:4,
         img:"/projectImg/2broshvac.png",
-        title:"PCA Website",
+        title:"2Bros HVAC - Website",
         shortDesc:"A responsive, user-friendly site showcasing HVAC services, founder insights, and easy contact options — built to highlight trust, expertise, and year-round comfort.",
         tags : ["Html","Css","Reactjs"],
         website:"https://2broshvac.ca/",
