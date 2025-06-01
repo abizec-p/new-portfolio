@@ -43,16 +43,12 @@ top: 0;
     padding: 0 10px;
     color: #3e3e3e;
     text-decoration: none;
-}   
-.logo h1{
+}
+.logo img{
+    height: 100px;
     
- 
-    font-size: 25px;
-}
-.logo a{
-    color: #1e1e1e;
-    text-decoration: none;
-}
+}   
+
 .menu a:hover{
     color: black;
 

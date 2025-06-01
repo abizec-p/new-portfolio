@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import { FaGithub,FaLinkedin,FaInstagram,FaDribbbleSquare   } from "react-icons/fa";
 import { RxHamburgerMenu } from "react-icons/rx";
+import logo from "../assets/img/logo.png"
+
 
 import "./style.css"
 import { useEffect, useState } from 'react';
@@ -36,7 +38,7 @@ export default function Nav(){
                 <Link onClick={handleLinkClick} to="contact">contact</Link>
             </div>
             <div className='logo'>
-                               <Link onClick={handleLinkClick}  to="/" ><h1>Abishek pariyar</h1></Link>
+                               <Link onClick={handleLinkClick}  to="/" ><img src={logo} alt="abishek pariyar logo" /></Link>
 
             </div>
             <div className={isClicked?"mobile-socials":'socials'}>
