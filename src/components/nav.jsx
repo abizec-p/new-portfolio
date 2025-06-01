@@ -36,7 +36,7 @@ export default function Nav(){
                 <Link onClick={handleLinkClick} to="contact">contact</Link>
             </div>
             <div className='logo'>
-                <h1>Abishek pariyar</h1>
+                               <Link onClick={handleLinkClick}  to="/" ><h1>Abishek pariyar</h1></Link>
 
             </div>
             <div className={isClicked?"mobile-socials":'socials'}>

@@ -10,7 +10,7 @@
     justify-content: center;
     justify-content: space-between;
     padding: 10px 100px ;
-    height: 20px;
+    height: 40px;
     align-items: last baseline;
     background-color: white;
 top: 0;
@@ -29,7 +29,7 @@ top: 0;
     justify-content: center;
     justify-content: space-between;
     padding: 10px 100px ;
-    height: 70px;
+    height: 30px;
     align-items: last baseline;
     background-color: white;
 top: 0;
@@ -45,9 +45,13 @@ top: 0;
     text-decoration: none;
 }   
 .logo h1{
-    font-family: "Baskervville", serif;
-    font-style: italic;
+    
+ 
     font-size: 25px;
+}
+.logo a{
+    color: #1e1e1e;
+    text-decoration: none;
 }
 .menu a:hover{
     color: black;
@@ -103,7 +107,7 @@ top: 0;
     top: 50dvh;
     left: 40dvw;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 35px;
 }
 
 /* works */
