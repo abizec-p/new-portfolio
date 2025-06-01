@@ -5,8 +5,8 @@ export default function Footer(){
     return<>
     <div className="footer">
         <div className="footer-logo" >
-            <h1>Abizec</h1>
-            <p>I am a front end web developer with expersite in reactjs. Feel free to reach me out via any of my contact method. <br />
+            <h1>Abishek pariyar</h1>
+            <p>Feel free to reach me out via any of my contact method. <br />
                 <br />Thank you and have a nice day.
             </p>
             <br />  
