@@ -6,6 +6,7 @@ import Contact from "./components/contact"
 import Footer from "./components/footer"
 import About from "./components/about"
 import ProjectPage from "./components/projects"
+import { motion } from "motion/react"
 export default function App(){
   return(
     <section>

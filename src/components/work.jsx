@@ -5,7 +5,6 @@ export default function Works(){
         <section id="work" className="work">
             <div className="works-section">
             {
-                
                 projects.map((projects) => (
                     <Link target="_blank" to={`${projects.website}`} key="project.id">
                    <div className="works-card" key={projects.id}>
