@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { FaGithub,FaLinkedin,FaInstagram,FaDribbbleSquare   } from "react-icons/fa";
 import { RxHamburgerMenu } from "react-icons/rx";
-import logo from "../assets/img/logo.png"
+import logo from "../assets/img/mainlogo.svg"
 
 
 import "./style.css"

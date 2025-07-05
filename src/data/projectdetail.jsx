@@ -35,6 +35,15 @@ const projects = [
         website:"https://2broshvac.ca/",
       
     },
+    {
+        id:5,
+        img:"/projectImg/calculator.png",
+        title:"Calculatemate - Calculator app",
+        shortDesc:"A responsive, user-friendly calculator giving 6 types of different calculator.",
+        tags : ["Html","Css","Reactjs"],
+        website:"https://calculatemate.netlify.app/",
+      
+    },
  
 ]
 export default projects;
