@@ -15,7 +15,7 @@
     background-color: white;
 top: 0;
     transition: 0.3s;
-    z-index: 1001;
+    z-index: 100;
 
 
 }
@@ -34,7 +34,7 @@ top: 0;
     background-color: white;
 top: 0;
     transition: 0.3s;
-    z-index: 1001;
+    z-index: 100;
     box-shadow: 0 0 3px rgb(215, 215, 215);
 
 }
@@ -101,11 +101,98 @@ top: 0;
 }
 .main h3{
     position: absolute;
-    top: 50dvh;
+    top: 35dvh;
     left: 40dvw;
     font-weight: bold;
     font-size: 35px;
 }
+
+.hero-call-to-action{
+    margin-top: 20px;
+
+}
+.hero-call-to-action button{
+    padding: 10px 20px;
+    background-color: #1e1e1e;
+    color: white;
+    font-size: 18px;
+    border: none;
+    margin: 10px 10px;
+    
+}
+.hero-call-to-action button a{
+    color: white;
+    text-decoration: none;
+}
+.hero-call-to-action button:hover{
+    background-color: #3c3c3c;
+}
+
+.background-layer-modal{
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index: 1000;
+
+    background-color: #1e1e1e78;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-icon{
+    font-size: 65px;
+}
+
+.contact-info-modal{
+    width: 25vw;
+    height: 50vh;
+    background-color: white;
+    border-radius: 10px;
+}
+.contact-detail-modal{
+    padding: 20px 30px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    height: 100%;
+
+}
+
+.contact-detail-modal label{
+    text-align: left;
+    color: green;
+
+}
+.contact-detail-modal p{
+    font-size: 16px;
+}
+.contact-detail-modal a{
+    font-size: 16px;
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #1e1e1e;
+}
+.contact-detail-modal a:hover{
+        color: rgb(0, 153, 255);
+
+
+}
+body.modal-open {
+  overflow: hidden;
+}
+
+.social-media-modal{
+    display: flex;
+}
+.social-media-modal a{
+    font-size: 30px;
+    padding-right: 10px;
+}
+
 
 /* works */
 .works-section a{
