@@ -145,11 +145,24 @@ top: 0;
     font-size: 65px;
 }
 
+
+    
+
 .contact-info-modal{
     width: 25vw;
     height: 50vh;
     background-color: white;
     border-radius: 10px;
+}
+@media (max-width:768px) {
+    .contact-info-modal{
+    width: 300px;
+    height: 50vh;
+    background-color: white;
+    border-radius: 10px;
+}
+
+    
 }
 .contact-detail-modal{
     padding: 20px 30px;
@@ -192,7 +205,6 @@ body.modal-open {
     font-size: 30px;
     padding-right: 10px;
 }
-
 
 /* works */
 .works-section a{

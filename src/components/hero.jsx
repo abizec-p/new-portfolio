@@ -13,9 +13,15 @@ import { FaInstagramSquare } from "react-icons/fa";
 
 export default function Hero() {
   const [isOpen, setIsOpen] = useState(false);
+  const [resumeOpen, setResumeOpen] = useState(false);
 
  useEffect(()=>{
     if (isOpen) {
+        document.body.classList.add('modal-open');
+    } else {
+        document.body.classList.remove('modal-open');
+    }
+    if (resumeOpen) {
         document.body.classList.add('modal-open');
     } else {
         document.body.classList.remove('modal-open');
@@ -74,7 +80,38 @@ export default function Hero() {
                   </motion.div>
                 )}
               </AnimatePresence>
-                <button > My Résumé</button>
+                <button  onClick={()=>{setResumeOpen(true)}}> My Résumé</button>
+                <AnimatePresence>
+                    {resumeOpen && (
+                        <motion.div
+                        className="background-layer-modal"
+                        initial={{opacity:0}}
+                        animate={{opacity:1}}
+                        exit={{opacity:0}}
+                        onClick={()=>{setResumeOpen(false)}}                      
+                        
+                        >
+                            <motion.div
+                            className="resume-modal"
+                            initial={{opacity:0, scale:0.8}}
+                            animate={{opacity:1, scale:1}}
+                            exit={{opacity:0, scale:0.7}}
+                            transition={{duration:0.03}}
+                            onClick={(e)=>{e.stopPropagation()}}
+                            
+                            
+                            >
+    
+
+
+
+
+
+                            </motion.div>
+                            
+                        </motion.div>
+                    )}
+                </AnimatePresence>
                 
             </div>
           </h3>
