@@ -98,9 +98,38 @@ export default function Hero() {
                             exit={{opacity:0, scale:0.7}}
                             transition={{duration:0.03}}
                             onClick={(e)=>{e.stopPropagation()}}
-                            
-                            
                             >
+                              <div className="resume-doc">
+                                <label onClick={()=> {setResumeOpen(false)}} htmlFor="label">X</label>
+                                <p>Skills</p>
+                                <ul>
+                                <li>HTML5, CSS3, ReactJs, Javascript, JSX, Framer Motion</li>
+                                <li>Typography, Color Theory, Layout & Composition, Branding & Identity Design, Adobe Creative Suite.</li>
+                                <li>Version Control, Debugging, Error handling</li>
+                                <li>Responsive design</li>
+                                <li>Deployment and hosting</li>
+                                </ul>
+                                <br />
+                                <p>Experience</p>
+                                <ul>
+                                <span>Front-end Web developer | Salyani Technologies – Chitwan, Nepal (Feb.2022 – Apr.2023)</span>
+                                <li>Typography, Color Theory, Layout & Composition, Branding & Identity Design, Adobe Creative Suite.</li>
+                                <li>Version Control, Debugging, Error handling</li>
+                                <li>Responsive design</li>
+                                <li>Deployment and hosting</li>
+                                </ul>
+                                <br />
+                                <p>Projects</p>
+                                <li><a href="https://abishekportfolionew.netlify.app/">Graphic design portfolio - Abishek pariyar</a></li>
+                                <li><a href="https://2broshvac.ca/">HVAC Website - 2 Bros Hvac</a></li>
+                                <li><a href="https://calculatemate.netlify.app/">Calculator App</a></li>
+                                <br />
+                                <p>Education</p>
+                                <ul>
+                                  <li>Advertising and Graphics designing – Humber college, Etobicoke, Canada (2024 – running)</li>
+                                  <li>Diploma in Computer Engineering – Nepal Polytechnic Institute, Chitwan, Nepal (2019 - 2021)</li>
+                                </ul>
+                              </div>
     
 
 
