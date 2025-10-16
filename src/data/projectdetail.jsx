@@ -46,7 +46,7 @@ const projects = [
   },
   {
     id: 6,
-    img: "/projectImg/expensetrackerImg",
+    img: "/projectImg/expensetrackerImg.png",
     title: "Ex-Track - Easy Expense Tracker App",
     shortDesc:
       "Developed a small-scale full-stack expense management application using Express.js for the backend. The app allows users to record and categorize income and expenses, displaying total balances, spending summaries, and insights such as the highest spending category. Data is dynamically rendered with real-time updates for a smooth and interactive experience..",
