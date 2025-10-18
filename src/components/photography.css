@@ -25,3 +25,25 @@
     margin: 10px;
     
 }
+
+.gallery-modal-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1000;
+    background-color: #1e1e1e83;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+
+}
+.gallery-modal{
+    height: 80vh;
+
+}
+.gallery-modal img{
+
+    height: 80vh;
+}
