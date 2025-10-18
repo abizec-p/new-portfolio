@@ -4,8 +4,13 @@ export default function Works(){
     return(
         <section id="work" className="work">
             <div className="works-section">
+                <div className="project-title">
+                <h1>Latest Projects</h1>
+                </div>
             {
-                projects.map((projects) => (
+                projects.slice()
+                .reverse()
+                .map((projects) => (
                     <Link target="_blank" to={`${projects.website}`} key="project.id">
                    <div className="works-card" key={projects.id}>
                     <div className="works-img-section">
@@ -14,7 +19,7 @@ export default function Works(){
                     <div className="works-card-text">
                     <h1>{projects.title}</h1>
                     <p>{projects.shortDesc}</p>
-                        <div className="tags">
+                    <div className="tags">
                     
                     {projects.tags.map((tags, index) =>(
                        <span key={index}>{tags}</span>

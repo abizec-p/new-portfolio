@@ -7,5 +7,7 @@ export default defineConfig({
   server: {
     host: true, // 👈 This makes Vite accessible over your local network
     port: 5173  // Optional: set a fixed port if you want
-  }
+  },
+    assetsInclude: ['**/*.JPG'],
+
 })

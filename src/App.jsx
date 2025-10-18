@@ -7,6 +7,7 @@ import Footer from "./components/footer"
 import About from "./components/about"
 import ProjectPage from "./components/projects"
 import { motion } from "motion/react"
+import Photography from "./components/photography"
 export default function App(){
   return(
     <section>
@@ -16,6 +17,7 @@ export default function App(){
         <Route path="/" element={<Hero/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/contact" element={<Contact/>}/>
+        <Route path="/photography" element={<Photography/>}/>
         <Route path="/project/:id" element={<ProjectPage/>}/>
       </Routes> 
       <Footer/>

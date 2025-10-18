@@ -39,12 +39,13 @@ export default function Nav() {
         <Link onClick={handleLinkClick} to="/about">
           about me
         </Link>
+         <Link onClick={handleLinkClick} to="photography">
+          Photography
+        </Link>
         <Link onClick={handleLinkClick} to="contact">
           contact
         </Link>
-        <Link onClick={handleLinkClick} to="contact">
-          Photography
-        </Link>
+       
       </div>
       <div className="logo">
         <Link onClick={handleLinkClick} to="/">

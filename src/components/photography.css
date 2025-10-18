@@ -1,0 +1,27 @@
+.top-line-photography{
+    margin: 20px 100px;
+    display: flex;
+    flex-direction: column;
+}
+.top-line-photography h1{
+    color: green;
+    padding: 10px 0;
+}
+.top-line-photography a{
+
+    padding: 5px 0;
+    color: #1e1e1e;
+}
+
+.main-gallery{
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-gallery img{
+    height: 300px;
+    margin: 10px;
+    
+}

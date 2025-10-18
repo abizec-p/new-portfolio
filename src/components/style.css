@@ -46,7 +46,7 @@ top: 0;
 }
 .logo img{
     height: 50px;
-    margin-left: 10px;
+    margin-left: -140px;
     
 }   
 
@@ -281,33 +281,54 @@ body.modal-open {
 }
 
 /* works */
+
+
+.project-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+    align-items: start;
+}
 .works-section a{
     text-decoration: none;
 }
 .works-section{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    align-items: center;
     margin-bottom: 100px;
     transition: 0.3s;
     margin: 40px 100px;
     background-color: rgb(242, 242, 242);
 }
 .works-section div{
-    margin: 50px 20px;
+
 
 }
 
 
 .works-card{
-    align-items: center;
-    height: 100% ;
+ 
+    padding: 50px 0 ;
+    display: flex;
+    border-bottom: 1px solid rgb(180, 180, 180);
+
+
 
   
 }
 
+.tags{
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: -5px;
+    padding: 0;
 
+}
 .tags span{
     background-color: green;
     margin: 5px 5px;
@@ -317,12 +338,17 @@ body.modal-open {
 .works-card-text{
     color: #3e3e3e;
     padding: 0 10px;
+    margin-left: 30px;
    
 
 }
 .works-card-text a{
     text-decoration: none;
 
+}
+.works-card-text h1{
+    font-size: 22px;
+    padding-bottom: 10px;
 }
 .works-card-text p{
     width: 500px;
@@ -334,6 +360,8 @@ body.modal-open {
 .works-card img{
     position: relative;
     width: 500px;
+    padding: 1px;
+    background-color: #1e1e1e;
 
 }
 .works-card img:hover{
