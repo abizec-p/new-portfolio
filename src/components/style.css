@@ -303,6 +303,23 @@ body.modal-open {
     margin: 40px 100px;
     background-color: rgb(242, 242, 242);
 }
+
+@media (max-width:999px) {
+    .works-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+    transition: 0.3s;
+    margin: 40px 20px;
+    background-color: rgb(242, 242, 242);
+}
+    
+
+    
+}
 .works-section div{
 
 
@@ -361,7 +378,8 @@ body.modal-open {
     position: relative;
     width: 500px;
     padding: 1px;
-    background-color: #1e1e1e;
+    box-shadow: 0 3px 5px rgb(195, 195, 195);
+
 
 }
 .works-card img:hover{
