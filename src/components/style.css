@@ -379,6 +379,7 @@ body.modal-open {
     width: 500px;
     padding: 1px;
     box-shadow: 0 3px 5px rgb(195, 195, 195);
+    border-radius: 10px ;
 
 
 }
