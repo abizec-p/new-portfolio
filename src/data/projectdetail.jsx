@@ -1,5 +1,14 @@
 const projects = [
   {
+    id: 7,
+    img: "/public/projectImg/jakesfrozenmomo.png",
+    title: "Jakes Frozen Mo:Mo",
+    shortDesc:
+      "A website for a frozen foods business, with different component and pages. ",
+    tags: ["Html", "Css", "Reactjs", "Framer Motion"],
+    website: "https://jakesfrozenmomo.netlify.app/",
+  },
+  {
     id: 1,
     img: "/projectImg/portfolio-website.png",
     title: "Portfolio 2024",
