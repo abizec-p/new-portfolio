@@ -64,7 +64,7 @@ const projects = [
   },
    {
     id: 7,
-    img: "/public/projectImg/jakesfrozenmomo.png",
+    img: "/projectImg/jakesfrozenmomo.png",
     title: "Jakes Frozen Mo:Mo",
     shortDesc:
       "A website for a frozen foods business, with different component and pages. ",
