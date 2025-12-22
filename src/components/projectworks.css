@@ -62,3 +62,75 @@
     margin-top: 20vh;
 
 }
+
+@media (max-width:999px) {
+ .project-works{
+    margin: 0 20px;
+    height: 300vh;
+}
+.heading-project{
+    margin: 5vh 5vw;
+    
+
+}
+.heading-project h1{
+    color: green;
+    margin-bottom: 20px;
+}
+.main-projects-section{
+    margin: 0 0vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+.main-projects-section div{
+    width: 80vw;
+    height: 55vh;
+    margin: 0px 0;
+
+}
+.web-development-section{
+    color: #2e2e2e;
+
+
+}
+.main-projects-section div h2,.main-projects-section div p{
+    padding: 10px 10px;
+} 
+.main-projects-section div{
+    padding: 20px ;
+    margin: 10px 0;
+}
+.graphics-design-section{
+        color: #2e2e2e;
+
+}
+.main-projects-section  a{
+    text-decoration: none;
+}
+
+.main-projects-section div img{
+    height: 40vh;
+    width: 80vw;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.works-below-project img{
+    height: auto;
+    width: 80vw;
+    margin: 10px 20px;
+
+
+}
+.works-below-project {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20vh;
+
+}   
+    
+}
