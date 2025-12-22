@@ -1,0 +1,47 @@
+.project-works{
+    margin: 0 20px;
+}
+.heading-project{
+    margin: 10vh 10vw;
+    
+
+}
+.heading-project h1{
+    color: green;
+    margin-bottom: 20px;
+}
+.main-projects-section{
+    margin: 0 5vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+.main-projects-section div{
+    width: 40vw;
+    height: 40vh;
+    margin: 20px 0;
+
+}
+.web-development-section{
+    background-image: url(../assets/img/coding.png);
+    color: white;
+
+
+}
+.main-projects-section div h2,.main-projects-section div p{
+    text-align: center;
+    transform: translate(0, 90px);
+    background-color: black;
+    padding: 10px 10px;
+} 
+.main-projects-section div{
+    padding: 20px ;
+}
+.graphics-design-section{
+    background-image: url(../assets/img/graphics-design.png);
+    color: white;
+}
+.main-projects-section  a{
+    text-decoration: none;
+}

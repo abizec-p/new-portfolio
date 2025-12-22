@@ -8,6 +8,7 @@ import About from "./components/about"
 import ProjectPage from "./components/projects"
 import { motion } from "motion/react"
 import Photography from "./components/photography"
+import ProjectWorks from "./components/projectworks"
 export default function App(){
   return(
     <section>
@@ -15,6 +16,7 @@ export default function App(){
       <Nav/>
       <Routes>
         <Route path="/" element={<Hero/>}/>
+        <Route path="/projectwork" element={<ProjectWorks/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/photography" element={<Photography/>}/>

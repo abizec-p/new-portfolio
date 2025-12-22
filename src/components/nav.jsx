@@ -33,7 +33,7 @@ export default function Nav() {
   return (
     <section className={isScrolled ? "borderNav" : "nav"}>
       <div className={isClicked ? "mobile-menu" : "menu"}>
-        <Link onClick={handleLinkClick} to="/">
+        <Link onClick={handleLinkClick} to="/projectwork">
           projects
         </Link>
         <Link onClick={handleLinkClick} to="/about">
