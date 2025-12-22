@@ -1,5 +1,10 @@
 import { Link } from "react-router-dom";
 import "../components/projectworks.css"
+import webDev from "../assets/img/coding.png"
+import grafDes from "../assets/img/graphics-design.png"
+import jakeLogo from "../assets/img/frLogo.png"
+import Adver from "../assets/img/himalayanyak.png"
+import cheetos from "../assets/img/cheetosmockup.png"
 
 export default function ProjectWorks(){
     return(
@@ -11,6 +16,7 @@ export default function ProjectWorks(){
             <div className="main-projects-section">
                 <Link to="/webdev">
                 <div className="web-development-section">
+                    <img src={webDev} alt="web design" />
                     <h2>Web development</h2>
                     <p>I build responsive, user-focused websites using modern front-end technologies, balancing performance, accessibility, and clean design.</p>
 
@@ -18,11 +24,19 @@ export default function ProjectWorks(){
                 </Link>
                 <Link to="/graphics designing">
                 <div className="graphics-design-section">
+                    <img src={grafDes} alt="graphics design" />
                     <h2>Graphics design</h2>
                     <p>I create visual designs that focus on clarity, brand identity, and strong visual storytelling across digital and print media.</p>
 
                 </div>
                 </Link>
+            </div>
+            
+            <div className="works-below-project">
+                <img src={jakeLogo} alt="jakes logo" />
+                <img src={Adver} alt="jakes logo" />
+                <img src={cheetos} alt="jakes logo" />
+             
             </div>
 
         </section>

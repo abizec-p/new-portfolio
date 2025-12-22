@@ -1,8 +1,9 @@
 .project-works{
     margin: 0 20px;
+    height: 150vh;
 }
 .heading-project{
-    margin: 10vh 10vw;
+    margin: 5vh 10vw;
     
 
 }
@@ -24,24 +25,40 @@
 
 }
 .web-development-section{
-    background-image: url(../assets/img/coding.png);
-    color: white;
+    color: #2e2e2e;
 
 
 }
 .main-projects-section div h2,.main-projects-section div p{
-    text-align: center;
-    transform: translate(0, 90px);
-    background-color: black;
     padding: 10px 10px;
 } 
 .main-projects-section div{
     padding: 20px ;
 }
 .graphics-design-section{
-    background-image: url(../assets/img/graphics-design.png);
-    color: white;
+        color: #2e2e2e;
+
 }
 .main-projects-section  a{
     text-decoration: none;
+}
+
+.main-projects-section div img{
+    height: 40vh;
+    width: 40vw;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.works-below-project img{
+    height: 50vh;
+    margin: 10px 20px;
+
+
+}
+.works-below-project {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+
 }

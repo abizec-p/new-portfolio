@@ -9,6 +9,7 @@ import ProjectPage from "./components/projects"
 import { motion } from "motion/react"
 import Photography from "./components/photography"
 import ProjectWorks from "./components/projectworks"
+import Works from "./components/work"
 export default function App(){
   return(
     <section>
@@ -21,6 +22,7 @@ export default function App(){
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/photography" element={<Photography/>}/>
         <Route path="/project/:id" element={<ProjectPage/>}/>
+        <Route path="/webdev" element={<Works/>}/>
       </Routes> 
       <Footer/>
       
