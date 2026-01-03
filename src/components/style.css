@@ -74,6 +74,38 @@ top: 0;
 
 /* hero*/
 
+.download-resume{
+    position: absolute;
+    bottom: 10vh;
+    margin-left: 25vw;
+}
+.download-resume a{
+    background-color: green;
+    color: white !important;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+
+}
+
+@media (max-width:999px) {
+    .download-resume{
+    position: fixed;
+    bottom: 8vh;
+    left: 110px;
+    margin-left:0;
+    z-index: 1000;
+}
+.download-resume a{
+    background-color: green !important;
+    color: white !important;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+
+}
+    
+}
 .hero{
     position: sticky;
     display: flex   ;
@@ -81,6 +113,7 @@ top: 0;
     justify-content: center;
     align-items: center;
 }
+
 
 .main img{
     height: 40dvh;
@@ -257,6 +290,7 @@ body.modal-open {
     width: 80vw;
     padding: 20px 25px;
     border-radius: 10px;
+    position: relative;
 }
 }
 .resume-doc p{

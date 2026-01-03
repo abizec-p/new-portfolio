@@ -100,6 +100,9 @@ export default function Hero() {
                             onClick={(e)=>{e.stopPropagation()}}
                             >
                               <div className="resume-doc">
+                                <div className="download-resume"><a href="/src/assets/file/Resume.pdf" download>
+  Download Resume
+</a></div>
                                 <label onClick={()=> {setResumeOpen(false)}} htmlFor="label">X</label>
                                 <p>Skills</p>
                                 <ul>
