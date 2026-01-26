@@ -71,5 +71,14 @@ const projects = [
     tags: ["Html", "Css", "Reactjs", "Framer Motion"],
     website: "https://jakesfrozenmomo.netlify.app/",
   },
+   {
+    id: 8,
+    img: "/projectImg/khetvic.png",
+    title: "Khetvic Foods",
+    shortDesc:
+      "A website for a my client for foods business, with different component and pages. ",
+    tags: ["Html", "Css", "Reactjs"],
+    website: "https://khetvicfoods.netlify.app/",
+  },
 ];
 export default projects;
