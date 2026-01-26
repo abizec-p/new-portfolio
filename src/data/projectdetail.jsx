@@ -1,5 +1,4 @@
 const projects = [
- 
   {
     id: 1,
     img: "/projectImg/portfolio-website.png",
@@ -62,7 +61,7 @@ const projects = [
     ],
     website: "https://expentrackapp.netlify.app/",
   },
-   {
+  {
     id: 7,
     img: "/projectImg/jakesfrozenmomo.png",
     title: "Jakes Frozen Mo:Mo",
@@ -71,7 +70,7 @@ const projects = [
     tags: ["Html", "Css", "Reactjs", "Framer Motion"],
     website: "https://jakesfrozenmomo.netlify.app/",
   },
-   {
+  {
     id: 8,
     img: "/projectImg/khetvic.png",
     title: "Khetvic Foods",
