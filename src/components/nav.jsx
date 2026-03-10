@@ -6,7 +6,7 @@ import {
   FaDribbbleSquare,
 } from "react-icons/fa";
 import { RxHamburgerMenu } from "react-icons/rx";
-import logo from "../assets/img/mainlogo.svg";
+import logo from "../assets/img/abishekpariyarlogo.svg";
 
 import "./style.css";
 import { useEffect, useState } from "react";
