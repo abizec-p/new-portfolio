@@ -4,26 +4,33 @@ export default function Contact(){
     return(
         <section className="contact">
             <div className="contact-heading">
-                <img src={contactImg} alt="" />
-            <h1>So you like my works?</h1>
+            <h1>Contact Me</h1>
             <p>"Feel free to reach out for any inquiries or collaborations—i'd love to hear from you! Whether you have a project in mind or just want to connect, don't hesitate to get in touch."</p> <br />
-            <div className="contact-details">
-                <p>here are my details</p>
-                <li>+14376651393</li>
-                <li>pariyarabishek60@gmail.com</li>
-                <li>Mississauga, ON, Canada</li>
-            </div>
-            <div className="message-me">
-                <h1>Or just say hi,</h1>
-                <div className="message-form">
-                    <input placeholder="name" type="text" />
-                    <input placeholder="email" type="text" />
-                    <textarea placeholder="your message" name="" id=""></textarea>
-                    <button>send</button>
-                </div>
-            </div>
+                        </div>
 
-            </div>
+ <div className="contact-boxes">
+
+  <div className="contact-card">
+    <i className="fa-solid fa-phone"></i>
+    <h4>Call Me</h4>
+    <p>+1 437 665 1393</p>
+  </div>
+
+  <div className="contact-card">
+    <i className="fa-solid fa-envelope"></i>
+    <h4>Email Me</h4>
+    <p>pariyarabishek60@gmail.com</p>
+  </div>
+
+  <div className="contact-card">
+    <i className="fa-solid fa-location-dot"></i>
+    <h4>Location</h4>
+    <p>Mississauga, ON, Canada</p>
+  </div>
+
+</div>
+           
+
           
             
         </section>

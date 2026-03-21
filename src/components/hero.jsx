@@ -1,4 +1,4 @@
-import plant from "../assets/img/planttt.png";
+import luffy from "../assets/img/yo-luffy.gif";
 import Works from "./work";
 import resume from "../assets/file/Resume.pdf";
 import { motion, AnimatePresence } from "framer-motion";
@@ -30,9 +30,12 @@ export default function Hero() {
  })
   return (
     <>
+    <section className="hero-wrapper">
       <section className="hero">
         <div className="main">
-          <img src={plant} alt="plant picture" />
+          <img src={luffyclr
+            
+          } alt="PURWHItE - MY photography" />
           <h3>
             "Hi, I'm Abishek Pariyar — a passionate Web Developer and Designer
             dedicated to building responsive, user-focused websites that blend
@@ -148,6 +151,7 @@ export default function Hero() {
             </div>
           </h3>
         </div>
+      </section>
       </section>
       <section className="work">
         <Works />
