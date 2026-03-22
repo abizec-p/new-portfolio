@@ -33,9 +33,7 @@ export default function Hero() {
     <section className="hero-wrapper">
       <section className="hero">
         <div className="main">
-          <img src={luffyclr
-            
-          } alt="PURWHItE - MY photography" />
+          <img src={luffy} alt="PURWHItE - MY photography" />
           <h3>
             "Hi, I'm Abishek Pariyar — a passionate Web Developer and Designer
             dedicated to building responsive, user-focused websites that blend
