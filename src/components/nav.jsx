@@ -38,9 +38,7 @@ export default function Nav() {
           home
         </Link>
        
-        <Link onClick={handleLinkClick} to="/projectwork">
-          projects
-        </Link>
+       
         <Link onClick={handleLinkClick} to="/about">
           about me
         </Link>

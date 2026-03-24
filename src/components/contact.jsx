@@ -13,7 +13,7 @@ export default function Contact(){
   <div className="contact-card">
     <i className="fa-solid fa-phone"></i>
     <h4>Call Me</h4>
-    <p>+1 437 665 1393</p>
+    <p>+1(437) 665-1393</p>
   </div>
 
   <div className="contact-card">
