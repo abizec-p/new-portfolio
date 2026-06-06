@@ -36,12 +36,12 @@ const projects = [
   },
   {
     id: 7,
-    img: "/projectImg/jakesmomo.png",
-    title: "Jakes Frozen Mo:Mo",
+    img: "/projectImg/dash-mockup.png",
+    title: "Next.Js App Router by Vercel course ",
     shortDesc:
-      "A website for a frozen foods business, with different component and pages. ",
-    tags: ["Html", "Css", "Reactjs", "Framer Motion"],
-    website: "https://jakesfrozenmomo.netlify.app/",
+      "Next.js Dashboard App A full-stack invoice management dashboard built with Next.js App Router, featuring authentication, PostgreSQL database integration, and server actions for CRUD operations. Deployed on Vercel. ",
+    tags: ["Next.Js", "Tailwind", "Postgre", "API"],
+    website: "https://nextjs-learn-pearl-three.vercel.app/",
   },
  
 ];
