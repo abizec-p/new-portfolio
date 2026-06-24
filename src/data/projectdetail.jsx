@@ -49,7 +49,7 @@ const projects = [
     shortDesc:
       "A marketplace platform for buying and selling homemade and local food. Built with Next.js, TypeScript, Tailwind CSS, and PostgreSQL, featuring listing management, search, and a responsive user experience.",
     tags: ["Next.Js", "Tailwind", "Postgre", "API"],
-    website: "https://nextjs-learn-pearl-three.vercel.app/",
+    website: "hhttps://taste-home.vercel.app/",
   },
  
 ];
