@@ -44,7 +44,7 @@ const projects = [
     website: "https://nextjs-learn-pearl-three.vercel.app/",
   },  {
     id: 7,
-    img: "/projectImg/foodmarketplace.png",
+    img: "/projectImg/foodmkt.png",
     title: "TasteHome - A food Marketplace app",
     shortDesc:
       "A marketplace platform for buying and selling homemade and local food. Built with Next.js, TypeScript, Tailwind CSS, and PostgreSQL, featuring listing management, search, and a responsive user experience.",
