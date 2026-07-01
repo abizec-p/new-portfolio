@@ -101,10 +101,11 @@
   left: 0;
   width: 100%;
   display: flex;
-  height: 75dvh;
+  height: 85dvh;
   justify-content: center;
   align-items: center;
   z-index: -5;
+  background-color: #F7F7F5;
 }
 
 .main img {
@@ -112,6 +113,22 @@
   margin-left: -600px;
   margin-top: 160px;
   z-index: 1;
+}
+
+.github{
+  padding: 5px 10px;
+  margin-top: 9px;
+  background-color: green;
+  color: white;
+  text-align: center;
+  
+
+}
+.github a{
+  color: white;
+}
+.github:hover{
+  background-color: rgb(0, 86, 0);
 }
 .shadow {
   height: 20px;
@@ -350,10 +367,10 @@ body.modal-open {
   padding: 0;
 }
 .tags span {
-  background-color: green;
+  background-color: gray;
   margin: 5px 5px;
   padding: 5px 5px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .works-card-text {
   color: white;
@@ -366,9 +383,13 @@ body.modal-open {
 .works-card-text h1 {
   font-size: 22px;
   padding-bottom: 10px;
+  color: #959595;
 }
 .works-card-text p {
   width: 500px;
+  text-align: justify;
+  color: #7a7a7a;
+  line-height: 22px;
 }
 .works-card-text:hover {
   color: whitesmoke;
@@ -415,12 +436,16 @@ body.modal-open {
 }
 
 /* about us section*/
+.about-main{
+  background-color: #F7F7F5 ;
+  padding-bottom: 50px;
+}
 .about-image {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 .about-image img {
   width: 1000px;
@@ -440,24 +465,31 @@ body.modal-open {
   align-items: center;
 }
 .text-part-about-first p {
-  width: 900px;
+  width: 850px;
   text-align: center;
   color: #3e3e3e;
+  line-height: 25px;
+  font-size: 20px;
 }
 .text-part-about-second {
   display: flex;
   flex-direction: column;
-  width: 1200px;
+  width: 1100px;
+  line-height: 27px;
   margin-top: 100px;
   margin-left: 200px;
   color: #2e2e2e;
+  font-size: 20px;
 }
 .text-part-about-second h1 {
   padding: 10px 0;
   font-size: 30px;
+  color: green;
 }
 .text-part-about-second p {
   margin: 20px 0;
+    line-height: 27px;
+
 }
 
 /*contact */

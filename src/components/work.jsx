@@ -19,14 +19,17 @@ export default function Works(){
                     <div className="works-card-text">
                     <h1>{projects.title}</h1>
                     <p>{projects.shortDesc}</p>
+                    <div className="tag-github">
                     <div className="tags">
                     
                     {projects.tags.map((tags, index) =>(
                        <span key={index}>{tags}</span>
                     ))}
                     </div>
+                    <div className="github"><a target="_blank" href={projects.github}>View Code</a></div>
 </div>
                    </div>  
+                   </div>
                    </Link> 
                 
                 ))}
