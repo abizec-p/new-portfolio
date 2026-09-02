@@ -11,7 +11,7 @@ export default function Works(){
                 projects.slice()
                 .reverse()
                 .map((projects) => (
-                    <Link target="_blank" to={`${projects.website}`} key="project.id">
+                    <Link target="_blank" to={`${projects.website}`} key={projects.id} >
                    <div className="works-card" key={projects.id}>
                     <div className="works-img-section">
                     <img src={projects.img} alt="" />
@@ -26,11 +26,11 @@ export default function Works(){
                        <span key={index}>{tags}</span>
                     ))}
                     </div>
-                    <div className="github"><a target="_blank" href={projects.github}>View Code</a></div>
 </div>
                    </div>  
                    </div>
                    </Link> 
+                   
                 
                 ))}
                 </div>

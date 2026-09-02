@@ -140,6 +140,10 @@
   border-radius: 100%;
   z-index: 1;
 }
+
+.main{
+  z-index: 100;
+}
 .main h3 {
   position: absolute;
   top: 35dvh;
