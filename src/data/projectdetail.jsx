@@ -53,8 +53,8 @@ const projects = [
     shortDesc:
       "CrypTrade is a real-time cryptocurrency market dashboard that pulls live data from the CoinGecko API, surfacing top coins by market cap alongside 24-hour price change and volume in a clean, responsive interface. Built with Next.js (App Router) and TypeScript, it was my first project working with a live third-party API rather than static or seeded data — forcing me to think through data fetching patterns, handling constantly changing values in the UI, and structuring components around real-world API responses instead of data I controlled myself. I'm currently extending it with user authentication and personal portfolio tracking, letting users log in and keep a record of their own holdings — moving it from a public market viewer toward a full account-based product.",
     tags: ["Next.Js", "Tailwind", "API"],
-    website: "https://taste-home.vercel.app/",
-    github: "https://github.com/abizec-p/TasteHome",
+    website: "https://cryptrade-seven.vercel.app/",
+    github: "https://github.com/abizec-p/cryptrade",
   },
 ];
 export default projects;
